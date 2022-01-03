@@ -24,11 +24,13 @@ body {
   text-align: center;
 }
 
+
 /* ABOUT */
 
 .profile-image {
   max-width: 300px;
 }
+
 
 /* Skills */
 
@@ -37,6 +39,23 @@ body {
   padding-right: 0.5rem;
 }
 
+
+/* PROJECTS */
+
+.project-button {
+  width: 160px;
+  font-size: 1rem;
+}
+
+.project-button-icon {
+  font-size: 1.3rem;
+}
+
+/* @media screen and (max-width: 992px) and (min-width: 768px) {
+  .project-buttons {
+    background-color: blue;
+  }
+} */
 
 
 /* Notes on Bootstrap media breakpoints: */
