@@ -36,7 +36,7 @@ body {
 }
 
 
-/* Skills */
+/* SKILLS */
 
 .icon-style {
   font-size: 2.4rem;
@@ -58,8 +58,6 @@ body {
 
 /* EXPERIENCE */
 
-
-
 @media screen and (min-width: 1200px) {
   .experience-accordian-container {
     max-width: 1100px;
@@ -77,9 +75,22 @@ body {
 }
 
 
+/* CONTACT */
 
+.contact-icon-github {
+  font-size: 2.9rem;
+  padding: 0 1.5rem;
+}
 
+.contact-icon-linkedin {
+  font-size: 3rem;
+  padding: 0 1.5rem;
+}
 
+.contact-icon-email {
+  font-size: 3.1rem;
+  padding: 0 1.5rem;
+}
 
 
 /* @media screen and (max-width: 992px) and (min-width: 768px) {
