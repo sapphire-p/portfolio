@@ -6,6 +6,15 @@ html {
 body {
   height: 100%;
   background-color: bisque;
+  margin-top: 62px;
+}
+
+#about {
+  padding-top: 62px;
+}
+
+.section11 {
+  background-color: lightseagreen;
 }
 
 .section1 {
