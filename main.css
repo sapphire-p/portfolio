@@ -48,10 +48,17 @@ a:hover {
   color: rgb(255, 238, 203) !important;
 }
 
+.navbar-brand-style:hover {
+  color: peachpuff !important;
+}
+
 .nav-item-style {
   color: papayawhip !important;
 }
 
+.nav-item-style:hover {
+  color: rgb(255, 164, 164) !important;
+}
 
 /* HERO */
 
@@ -80,12 +87,24 @@ a:hover {
   padding-right: 0.5rem;
 }
 
+.soft-skills-list li {
+  font-size: 1.1rem;
+  padding: 5px 0;
+}
+
 
 /* PROJECTS */
 
 .project-button {
   width: 160px;
   font-size: 1rem;
+  background-color: rgb(255, 164, 164);
+  border: 1px #495057 solid;
+  box-shadow: 4px 4px 5px #495057;
+}
+
+.project-button:hover {
+  background-color: papayawhip;
 }
 
 .project-button-icon {
