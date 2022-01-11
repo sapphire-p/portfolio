@@ -68,7 +68,7 @@ a:hover {
   height: 92vh;
 }
 
-
+/* 
 @media screen and (max-width: 576px) {
   .hero {
     background-image: url('./assets/hero-background.jpg');
@@ -78,7 +78,7 @@ a:hover {
     background-attachment: scroll;
     height: 92vh;
   }
-}
+} */
 
 
 /* ABOUT */
