@@ -24,7 +24,7 @@ a:hover {
   color: rgb(255, 247, 230);
 }
 
-#about, #skills, #projects, #experience, #contact, .education-container {
+#about, #skills, #projects, #experience, #contact, .education-container, .interests-section {
   padding-top: 48px;
 }
 
@@ -60,6 +60,7 @@ a:hover {
   color: rgb(255, 164, 164) !important;
 }
 
+
 /* HERO */
 
 .hero {
@@ -68,7 +69,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 238, 203);
-  height: 78vh;
+  height: 80vh;
   text-align: center;
 }
 
@@ -111,6 +112,10 @@ a:hover {
   font-size: 1.3rem;
 }
 
+.project-image {
+  border-radius: 10px;
+}
+
 
 /* EXPERIENCE */
 
@@ -137,6 +142,26 @@ a:hover {
 .accordian-item-style {
   background-color: rgb(255, 247, 230) !important;
 }
+
+.experience-date {
+  width: 225px;
+}
+
+
+/* INTERESTS */
+
+.interest-icon {
+  font-size: 4.5rem;
+}
+
+.interest-div {
+  padding: 0 5px;
+}
+
+.podcasts-interest {
+  max-width: 150px;
+}
+
 
 /* CONTACT */
 
