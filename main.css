@@ -5,14 +5,11 @@ html {
 
 body {
   height: 100%;
-  background-color: peachpuff;
-  /* background-color: bisque; */
-  /* background: linear-gradient(#e66465, #ebf8e1, #9198e5); */
-  /* background-image:
-  url('https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80');
-  background-size:cover; */
+  background: linear-gradient(#bbb9df, #e6dcd5, #e0c1bb);
+  background: linear-gradient(rgb(255, 164, 164), peachpuff, peachpuff, rgb(252, 189, 177));
   margin-top: 48px;
   color: #495057;
+  font-family: 'Sora', sans-serif;
 }
 
 a {
@@ -27,11 +24,6 @@ a:hover {
 #about, #skills, #projects, #experience, #contact, .education-container, .interests-section {
   padding-top: 48px;
 }
-
-/* .about-container {
-  background-color: lightseagreen;
-  width: 100%;
-} */
 
 /* .border1 {
   border: 1px solid lightgray;
@@ -68,9 +60,12 @@ a:hover {
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 238, 203);
-  height: 78vh;
-  text-align: center;
+  background-image: url('./assets/hero-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 92vh;
 }
 
 
@@ -97,7 +92,7 @@ a:hover {
 /* PROJECTS */
 
 .project-button {
-  width: 160px;
+  width: 175px;
   font-size: 1rem;
   background-color: rgb(255, 164, 164);
   border: 1px #495057 solid;
@@ -106,6 +101,7 @@ a:hover {
 
 .project-button:hover {
   background-color: papayawhip;
+  background-color: #c3c1e9;
 }
 
 .project-button-icon {
