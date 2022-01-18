@@ -154,14 +154,16 @@ a:hover {
 /* INTERESTS */
 
 .interest-icon {
-  font-size: 4.5rem;
+  font-size: 4.4rem;
+  margin: 0;
 }
 
 .interest-div {
   padding: 0 5px;
+  font-size: 0.93rem;
 }
 
-.podcasts-interest {
+.interest-text {
   max-width: 150px;
 }
 
